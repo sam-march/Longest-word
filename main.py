@@ -1,4 +1,3 @@
-
 def largestWord(inputted_string):
     inputted_string = sorted(inputted_string, key = len)
     print(inputted_string[-1])
